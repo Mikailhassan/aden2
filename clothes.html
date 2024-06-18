@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothes</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <img src="img/download.png logo.png" alt="Logo" class="logo">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="perfumes.html">Perfumes</a></li>
+      <li><a href="cosmetics.html">Cosmetics</a></li>
+      <li><a href="clothes.html">Clothes</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+  <div class="container mt-5">
+    <h2>Clothes</h2>
+    <div id="products-container" data-type="clothes" class="row row-cols-1 row-cols-md-3 g-4"></div>
+  </div>
+
+<!-- Footer -->
+<footer class="perfume-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <img src="data:image/jpeg;base64,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">
+                <p>Shop our exclusive clothing collection now!</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>

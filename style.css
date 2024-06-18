@@ -1,0 +1,220 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      width: 200px; /* Adjust size as needed */
+      margin-right: auto;
+    }
+    .nav-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .nav-links li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .nav-links li:last-child {
+      margin-right: 0;
+    }
+    .nav-links li a {
+      color: white;
+      text-decoration: none;
+    }
+    .nav-links li a:hover {
+      text-decoration: underline;
+    }
+
+.highlight{
+  background-color: antiquewhite;
+
+}
+
+/* content section */
+
+.content-section {
+    background-color: rgb(127, 127, 127);
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .content-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content-section .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+
+/* new content section */
+    .new-content-section {
+        background-color: #f0f0f0; /* Light grey background */
+        padding: 50px 0;
+        text-align: center;
+        position: relative;
+        width: 100%;
+      }
+      
+      .line-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        
+      }
+      
+      .line {
+        width: 30%;
+        height: 5px;
+        background-color: red;
+        position: relative;
+        top: 50%;
+        
+      }
+      
+      .circle {
+        width: 70px;
+        height: 70px;
+        background-color: red;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+      }
+      
+      .circle .tick {
+        color: white;
+        font-size: 34px;
+      }
+      
+      .text-container {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 180px;
+      }
+      
+      .text-container h3 {
+        margin: 10px 0;
+        font-size: 18px;
+      }
+      
+      .text-container p {
+        font-size: 14px;
+        margin: 0;
+      }
+      
+/* cards */
+      .container-2{
+        margin-top: 130px;
+      }
+      .sec-1{
+        isolation: isolate;
+        width: 150%;
+        position: relative;
+        z-index: 5;
+      }
+      .drinkwater img{
+        height: 80%;
+      
+      }
+      .imgAboutUs{
+        width: 100%;
+        /* height: 240px; */
+        
+      }
+      .p7{
+        width: 100%;
+        font-size: 18px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      }
+
+      .section h4 {
+        font-family: 'Georgia', serif;
+        font-size: 1.5em;
+        position: relative;
+        display: inline-block;
+      }
+    
+      .section h4::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 5px;
+        background: red;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+      }
+      .subheadings {
+        margin-bottom: 15px;
+        color: #0998eb;
+      }
+      .faq{
+        text-decoration: underline;
+        font-size: 48px;
+        font-family: fantasy;
+      }
+      .map{
+        background-color: rgb(201, 148, 83);
+      }
+      .perfume-footer{
+        background-color: rgb(114, 114, 124);
+      }
+
+      /* the new css */
+
+      
+#perfumes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.perfume-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.perfume-card img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+}
+.perfume-card img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.perfume-card:hover img {
+  transform: scale(1.1);
+}
